@@ -19,8 +19,8 @@ class Program
                 throw new ArgumentException("Array cannot be null or empty", nameof(nums));
             }
         double sum = 0;
-        foreach (int num in nums){
-            sum += num;
+        foreach (int item in nums){
+            sum += item;
         }
         return sum / nums.Length;
     }
